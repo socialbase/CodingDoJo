@@ -1,4 +1,4 @@
-# CondingDoJo
-Códigos aleatórios resultantes do Conding DoJo SB.
+# Coding Dojo
+Códigos aleatórios resultantes do Coding Dojo SB.
 
 #Em construção
