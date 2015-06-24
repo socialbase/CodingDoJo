@@ -1,0 +1,27 @@
+{
+  "name": "sb-coding-dojo-js",
+  "version": "0.0.1",
+  "description": "Learn TDD with Javascript and Mocha",
+  "keywords": ["test", "tutorial"],
+  "author": "SocialBase Developers",
+  "main": "src/Calculadora.js",
+  "config" : {
+    "blanket" : {
+      "pattern" : "",
+      "data-cover-never" : [
+        "node_modules",
+        "tests"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "mocha --recursive -R spec ./tests/",
+    "test-coverage": "mocha --require blanket --recursive ./tests/ -R html-cov > coverage.html"
+  },
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
+  }
+}
